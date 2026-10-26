@@ -11,10 +11,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  cursor: pointer;
-}
-
 .img-container {
   display: flex;
   height: 1350px;
@@ -45,12 +41,22 @@ a:hover {
 }
 
 .main-buttons {
+  cursor: pointer;
   display: block;
   width: 200px;
   height: 60px;
   margin: 10px 48px 10px 48px;
+  box-shadow:  10px 10px 15px rgba(0, 0, 0, .1);
   border-radius: 20px;
   border: none;
   color: rgb(115, 108, 106);
   background-color: rgba(255, 255, 255, .3);
+}
+
+.main-buttons:hover {
+  background-color: rgba(115, 108, 106, .4);
+}
+
+.main-buttons:active {
+  background-color: rgba(115, 108, 106, .1);
 }

@@ -12,15 +12,13 @@ body {
 } *//
 
 .logo {
-    width: 100px;
-    height: 200px;
+    width: 60px;
     overflow: hidden;
 }
 
 .logo img {
     display: flex;
     width: 60px;
-    margin: 0 0 100px 2px 
 }
 
 .heading {
@@ -29,10 +27,9 @@ body {
 
 .title-heading {
     display: flex;
-    align-self: flex-start;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 1000;
-    margin-top: 20px;
+    align-items: center;
 }
 
 .title-heading a {
@@ -47,4 +44,21 @@ body {
     padding: 50px;
     background-color:  rgb(249, 232, 227);
     border-radius: 80px;
+}
+
+.recipe-title {
+    font-size: 50px;
+    padding: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.pasta-container {
+    width: 500px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.pasta-container img {
+    width: 500px;
 }

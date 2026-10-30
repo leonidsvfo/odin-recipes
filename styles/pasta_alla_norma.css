@@ -4,11 +4,23 @@ body {
     margin: 0;
     font-family: "Roboto", sans-serif;
     background-color: rgb(252, 242, 232);
-    color: rgb(119, 102, 170)
+    color: rgb(197, 133, 65)
+}
+
+//* {
+    border: 2px solid black;
+} *//
+
+.logo {
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .logo img {
-    width: 350px;
+    display: flex;
+    width: 60px;
+    margin: 0 0 100px 2px 
 }
 
 .heading {
@@ -17,9 +29,15 @@ body {
 
 .title-heading {
     display: flex;
+    align-self: flex-start;
     font-size: 40px;
-    font-weight: 900;
-    padding: none;
+    font-weight: 1000;
+    margin-top: 20px;
+}
+
+.title-heading a {
+    text-decoration: none;
+    color: rgb(119, 102, 170)
 }
 
 .main {

@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    background-color:  rgb(213, 203, 201);
+    background-color: rgb(0, 0, 0, .1);
 }
 
 .heading {
@@ -11,6 +11,14 @@ body {
     justify-content: space-between;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding: 50px;
+    background-color:  rgb(213, 203, 201);
+    border-radius: 80px;
+}
 .title {
     display: flex;
     align-self: center;
@@ -30,6 +38,8 @@ body {
     width: 90px;
     justify-content: center;
     background-color: rgba(0 0 0 .6);
+    border: none;
+    border-radius:20px;
 }
 
 .home a {
@@ -37,6 +47,3 @@ body {
     color: black;
 }
 
-* {
-    border: 2px solid black
-} 

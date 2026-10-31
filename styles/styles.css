@@ -14,12 +14,11 @@ body {
 
 .main-image {
   display: flex;
-  overflow: hidden;
   justify-content: center;
   align-self: center;
   align-content: center;
   margin-top: 100px;
-  opacity: .4;
+  opacity: .7;
 }
 
 .main-image img {
@@ -33,7 +32,7 @@ body {
   align-self: center;
   align-content: center;
   font-size: 50px;
-  color: rgb(115, 108, 106);
+  color: rgba(255, 255, 255, .7);
   margin: 10px 0 50px 0;
 }
 
@@ -50,7 +49,7 @@ body {
   border-radius: 20px;
   border: none;
   font-size: 20px;
-  background-color: rgba(255, 175, 26, 0.803);
+  background-color: rgba(255, 175, 26, 0.7);
 }
 
 a {
@@ -59,7 +58,7 @@ a {
 }
 
 .main-buttons:hover {
-  background-color: rgba(115, 108, 106, .4);
+  background-color: rgba(255, 255, 255, .4);
   color: rgba(255, 175, 26, 0.803);
 }
 

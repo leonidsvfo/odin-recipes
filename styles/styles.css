@@ -12,17 +12,19 @@ body {
   flex-direction: column;
 }
 
-.image-container {
+.main-image {
   display: flex;
-  align-self: center;
-  justify-content: center;
-  width: 800px;
-  height: 900px;
   overflow: hidden;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  margin-top: 100px;
+  opacity: .4;
 }
 
-.image-container img {
-  height: 1000px;
+.main-image img {
+  width: 90px;
+  height: 100px;
 }
 
 .main-title {
@@ -32,7 +34,7 @@ body {
   align-content: center;
   font-size: 50px;
   color: rgb(115, 108, 106);
-  margin: 200px 0 50px 0;
+  margin: 10px 0 50px 0;
 }
 
 .main-buttons {
@@ -64,3 +66,16 @@ a {
 .main-buttons:active {
   opacity: .5;
 } 
+
+.image-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 800px;
+  height: 900px;
+  overflow: hidden;
+}
+
+.image-container img {
+  height: 1000px;
+}

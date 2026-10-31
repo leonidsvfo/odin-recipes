@@ -36,13 +36,13 @@ body {
 }
 
 .pasta-container {
-    width: 500px;
+    width: 800px;
     border-radius: 40px;
     overflow: hidden;
 }
 
 .pasta-container img {
-    width: 500px;
+    width: 800px;
 }
 
 .intro {
@@ -56,7 +56,7 @@ body {
 .ingridiens {
     display: flex;
     margin-top: 80px;
-    font-size: 34px;
+    font-size: 44px;
 }
 
 ul {
@@ -65,4 +65,14 @@ ul {
 
 ul .main-ingridiens {
     font-size: 25px;
+}
+
+.title-method {
+    display: flex;
+    font-size: 40px;
+}
+
+.list {
+    font-size: 20px;
+    width: 600px;
 }

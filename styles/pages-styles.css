@@ -69,7 +69,8 @@ ul {
     font-size: 40px;
 }
 
-.list {
+.list li {
     font-size: 20px;
     width: 600px;
+    margin-bottom: 15px;
 }

@@ -60,11 +60,9 @@ body {
 
 ul {
     margin-bottom: 80px;
-}
-
-ul .main-ingridiens {
     font-size: 25px;
 }
+
 
 .title-method {
     display: flex;

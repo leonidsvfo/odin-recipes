@@ -119,3 +119,16 @@ ul {
 .thirdstep img {
     width: 400px;
 }
+
+.fourthstep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    overflow: hidden;
+    margin: 22px;
+}
+
+.fourthstep img {
+    width: 400px;
+}

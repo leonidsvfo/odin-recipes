@@ -106,3 +106,16 @@ ul {
 .secondstep img {
     width: 400px;
 }
+
+.thirdstep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    overflow: hidden;
+    margin: 22px;
+}
+
+.thirdstep img {
+    width: 400px;
+}

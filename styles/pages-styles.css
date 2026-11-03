@@ -87,8 +87,22 @@ ul {
     align-items: center;
     width: 400px;
     overflow: hidden;
+    margin: 22px;
 }
 
 .firststep img {
+    width: 400px;
+}
+
+.secondstep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    overflow: hidden;
+    margin: 22px;
+}
+
+.secondstep img {
     width: 400px;
 }

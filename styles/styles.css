@@ -1,17 +1,17 @@
 html {
-  background-image: url("./images/logo.png");
-  background-color: rgba(0, 0, 0);
+  background: bottom no-repeat url("../images/pasta-image.png");
+  background-color: black;
+  background-size: 1000px;
   font-family: "Playfair Display", serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 0 350px 750px 350px;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -22,10 +22,10 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: "Playfair Display", serif;
   align-self: center;
   cursor: pointer;
   width: 200px;
-  font-family: "Playfair Display", serif;
   height: 60px;
   margin: 10px 48px 10px 48px;
   border-radius: 50px;
@@ -47,16 +47,3 @@ a {
 .main-buttons:active {
   opacity: .5;
 } 
-
-.image-container {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  width: 800px;
-  height: 900px;
-  overflow: hidden;
-}
-
-.image-container img {
-  height: 1000px;
-}

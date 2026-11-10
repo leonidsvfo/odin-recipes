@@ -23,14 +23,6 @@ body {
     opacity: .2;
 }
 
-.recipe-title {
-    font-size: 50px;
-    padding: 10px;
-    margin: 30px;
-    font-weight: 500;
-    opacity: .9;
-}
-
 .pasta-container {
     display: flex;
     width: 800px;
@@ -69,32 +61,19 @@ ul {
     font-size: 40px;
 }
 
-.list li {
+.recipe li {
     font-size: 20px;
     width: 600px;
     margin-bottom: 15px;
 }
 
-.list {
+.recipe {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.firststep {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    overflow: hidden;
-    margin: 22px;
-}
-
-.firststep img {
-    width: 400px;
-}
-
-.secondstep{
+.recipe-step {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,32 +82,7 @@ ul {
     margin: 22px;
 }
 
-.secondstep img {
+.recipe-step img {
     width: 400px;
 }
 
-.thirdstep {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    overflow: hidden;
-    margin: 22px;
-}
-
-.thirdstep img {
-    width: 400px;
-}
-
-.fourthstep {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    overflow: hidden;
-    margin: 22px;
-}
-
-.fourthstep img {
-    width: 400px;
-}

@@ -7,19 +7,13 @@ body {
     padding: 30px;
     align-items: center;
 }   
-
-.title-heading {
+nav img {
     display: flex;
     align-items: center;
     opacity: .9;
+    width: 100px;
 }
-
-.title-heading img {
-    width: 70px;
-    opacity: .8;
-}
-
-.title-heading img:hover {
+nav img:hover {
     opacity: .2;
 }
 

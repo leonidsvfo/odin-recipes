@@ -1,6 +1,6 @@
 # odin-recipes
 
-This is my first HMTL and CSS site!
+**This is my first HMTL and CSS site!**
 
 It was queit a journey, I spend many hours on this project learning the foundations of HTML and CSS. 
 Is very simple and can be useful if you wanto to cook something interesting.
